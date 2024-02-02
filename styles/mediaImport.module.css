@@ -1,0 +1,13 @@
+.mediaImport {
+    width: 100%;
+    height: 200px; 
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .mediaImport.dragging {
+    border-color: #aaa;
+  }
